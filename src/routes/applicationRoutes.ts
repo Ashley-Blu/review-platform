@@ -3,7 +3,7 @@ import { addApplication } from "../controllers/applicationControllers"
 
 const router = Router();
 
-// health route for the mounted router (matches GET /api/)
+// healthy route for the mounted router (matches GET /api/)
 router.get('/', (_req, res) => {
 	res.status(200).json({ message: 'applications router is mounted' });
 });
